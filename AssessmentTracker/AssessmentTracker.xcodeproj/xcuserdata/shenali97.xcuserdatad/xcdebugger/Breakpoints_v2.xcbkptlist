@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "561EA050-1CD4-4EE0-AE14-AA0C024D0DBE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "724227FD-696C-4172-B59B-67B066E902FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskPlanningApp/ViewControllerGroup/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "fetchedResultsController"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A - 6f7d1420ede21a56"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskPlanningApp.AssessmentTableCell.cellDelegate.getter : Swift.Optional&lt;TaskPlanningApp.AssessmentTableCellDelegate&gt;"
+                  moduleName = "TaskPlanningApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenali97/Desktop/IIT/semester%202/IOS/IOSProjects/TaskPlanningApp/TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A - 4f390fb8043fba4a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskPlanningApp.AssessmentTableCell.cellDelegate.setter : Swift.Optional&lt;TaskPlanningApp.AssessmentTableCellDelegate&gt;"
+                  moduleName = "TaskPlanningApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenali97/Desktop/IIT/semester%202/IOS/IOSProjects/TaskPlanningApp/TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "134">
+               </Location>
+               <Location
+                  uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A - eed3809d51838255"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskPlanningApp.AssessmentTableCell.cellDelegate.modify : Swift.Optional&lt;TaskPlanningApp.AssessmentTableCellDelegate&gt;"
+                  moduleName = "TaskPlanningApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenali97/Desktop/IIT/semester%202/IOS/IOSProjects/TaskPlanningApp/TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A - 20b1f32affe78613"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskPlanningApp.AssessmentTableCell.cellDelegate.modify : Swift.Optional&lt;TaskPlanningApp.AssessmentTableCellDelegate&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TaskPlanningApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenali97/Desktop/IIT/semester%202/IOS/IOSProjects/TaskPlanningApp/TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A - bd9e59625a72d1e2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskPlanningApp.AssessmentTableCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TaskPlanningApp.AssessmentTableCell"
+                  moduleName = "TaskPlanningApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenali97/Desktop/IIT/semester%202/IOS/IOSProjects/TaskPlanningApp/TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "222">
+               </Location>
+               <Location
+                  uuid = "45DDB144-75C1-4CE1-8BEF-9AAE5041436A - 3e14afe1b3005508"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskPlanningApp.AssessmentTableCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TaskPlanningApp.AssessmentTableCell&gt;"
+                  moduleName = "TaskPlanningApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenali97/Desktop/IIT/semester%202/IOS/IOSProjects/TaskPlanningApp/TaskPlanningApp/ViewGroup/AssessmentTableCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "159">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC14FD51-308C-4EA2-B0E9-709D2428EE88"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskPlanningApp/ViewControllerGroup/AddAssessmentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "handleAddButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56E66230-58D7-47A0-B10D-C186A01362CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskPlanningApp/ViewControllerGroup/TaskViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "UIConfiguration()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90DD8DFA-D7DA-4DC1-829D-E38ADD8C5EC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssessmentTracker/ViewControllerGroup/AddAssessmentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "handleAddButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DE7EC59-4540-47CB-AABB-87822FE53C87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssessmentTracker/ViewControllerGroup/AddAssessmentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "handleAddButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B09D1E1-14C6-4FF6-9BBF-A41DB369FC8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssessmentTracker/ViewControllerGroup/AddTaskViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "AddReminder(eventStore:title:note:endDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C140CE1-36AE-4F08-B245-2196C33A8816"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssessmentTracker/ViewControllerGroup/AddTaskViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "AddReminder(eventStore:title:note:endDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E4F39EB-4E6C-482E-9940-16C4EAF4CAB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssessmentTracker/HelperGroup/Gradients.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "colorForProgress(_:negative:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

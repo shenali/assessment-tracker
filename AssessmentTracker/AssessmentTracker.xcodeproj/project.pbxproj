@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C08C5EC246E64E7001DFC90 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08C5EB246E64E7001DFC90 /* DateFormat.swift */; };
+		9CA33BB5246FADCD00F58679 /* TaskCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA33BB4246FADCD00F58679 /* TaskCoreData.swift */; };
+		9CA33BB7246FAE3800F58679 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA33BB6246FAE3800F58679 /* TaskModel.swift */; };
+		9CDA9BEB246E7E6A00275CED /* ProjectFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BEA246E7E6A00275CED /* ProjectFormulas.swift */; };
+		9CDA9BED246EB86500275CED /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BEC246EB86500275CED /* Gradients.swift */; };
+		9CDA9BF3246EE3BD00275CED /* AssesmentCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BF2246EE3BD00275CED /* AssesmentCoreData.swift */; };
+		9CDA9BF5246EE47600275CED /* AssessmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BF4246EE47600275CED /* AssessmentModel.swift */; };
+		9CDA9BFB246F148300275CED /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BFA246F148300275CED /* AssessmentViewController.swift */; };
+		9CDA9BFD246F186A00275CED /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BFC246F186A00275CED /* TaskViewController.swift */; };
+		9CDA9BFF246F1C7900275CED /* AddAssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BFE246F1C7900275CED /* AddAssessmentViewController.swift */; };
+		BF3A3B602299BC8E007A20BF /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A3B5F2299BC8E007A20BF /* LinearProgressBar.swift */; };
+		BF3D96D3229859F500076BD6 /* AssessmentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D96D1229859F500076BD6 /* AssessmentTableCell.swift */; };
+		BF3D96D4229859F500076BD6 /* AssessmentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3D96D2229859F500076BD6 /* AssessmentTableCell.xib */; };
+		BF3D96F922988CB200076BD6 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D96F822988CB200076BD6 /* AddTaskViewController.swift */; };
+		BFD689B32296C070003A5E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD689B22296C070003A5E85 /* AppDelegate.swift */; };
+		BFD689BD2296C070003A5E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD689BB2296C070003A5E85 /* Main.storyboard */; };
+		BFD689BF2296C071003A5E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD689BE2296C071003A5E85 /* Assets.xcassets */; };
+		BFD689C22296C071003A5E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD689C02296C071003A5E85 /* LaunchScreen.storyboard */; };
+		BFD689CB2296C175003A5E85 /* AssessmentTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD689C92296C175003A5E85 /* AssessmentTracker.xcdatamodeld */; };
+		BFDC2B142299352A0084C115 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC2B132299352A0084C115 /* UITableView.swift */; };
+		BFDC2B172299705D0084C115 /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC2B152299705D0084C115 /* TaskCellView.swift */; };
+		BFDC2B182299705D0084C115 /* TaskCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDC2B162299705D0084C115 /* TaskCellView.xib */; };
+		BFDC2B1A229988D90084C115 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC2B19229988D90084C115 /* CircularProgressBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C08C5EB246E64E7001DFC90 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		9CA33BB4246FADCD00F58679 /* TaskCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCoreData.swift; sourceTree = "<group>"; };
+		9CA33BB6246FAE3800F58679 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		9CDA9BEA246E7E6A00275CED /* ProjectFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectFormulas.swift; sourceTree = "<group>"; };
+		9CDA9BEC246EB86500275CED /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		9CDA9BF2246EE3BD00275CED /* AssesmentCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssesmentCoreData.swift; sourceTree = "<group>"; };
+		9CDA9BF4246EE47600275CED /* AssessmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentModel.swift; sourceTree = "<group>"; };
+		9CDA9BFA246F148300275CED /* AssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
+		9CDA9BFC246F186A00275CED /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		9CDA9BFE246F1C7900275CED /* AddAssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssessmentViewController.swift; sourceTree = "<group>"; };
+		BF3A3B5F2299BC8E007A20BF /* LinearProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressBar.swift; sourceTree = "<group>"; };
+		BF3D96D1229859F500076BD6 /* AssessmentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentTableCell.swift; sourceTree = "<group>"; };
+		BF3D96D2229859F500076BD6 /* AssessmentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssessmentTableCell.xib; sourceTree = "<group>"; };
+		BF3D96F822988CB200076BD6 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		BFD689AF2296C070003A5E85 /* AssessmentTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssessmentTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD689B22296C070003A5E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD689BC2296C070003A5E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD689BE2296C071003A5E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD689C12296C071003A5E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD689C32296C071003A5E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD689CA2296C175003A5E85 /* ProjectPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectPlanner.xcdatamodel; sourceTree = "<group>"; };
+		BFDC2B132299352A0084C115 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		BFDC2B152299705D0084C115 /* TaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
+		BFDC2B162299705D0084C115 /* TaskCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCellView.xib; sourceTree = "<group>"; };
+		BFDC2B19229988D90084C115 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD689AC2296C070003A5E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3A3B612299C566007A20BF /* HelperGroup */ = {
+			isa = PBXGroup;
+			children = (
+				9C08C5EB246E64E7001DFC90 /* DateFormat.swift */,
+				9CDA9BEA246E7E6A00275CED /* ProjectFormulas.swift */,
+				9CDA9BEC246EB86500275CED /* Gradients.swift */,
+			);
+			path = HelperGroup;
+			sourceTree = "<group>";
+		};
+		BFD689A62296C070003A5E85 = {
+			isa = PBXGroup;
+			children = (
+				BFD689B12296C070003A5E85 /* AssessmentTracker */,
+				BFD689B02296C070003A5E85 /* ProductsGroup */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD689B02296C070003A5E85 /* ProductsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BFD689AF2296C070003A5E85 /* AssessmentTracker.app */,
+			);
+			name = ProductsGroup;
+			sourceTree = "<group>";
+		};
+		BFD689B12296C070003A5E85 /* AssessmentTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A3B612299C566007A20BF /* HelperGroup */,
+				BFD689CE2296D384003A5E85 /* ViewGroup */,
+				BFD689CD2296D378003A5E85 /* ModelClassGroup */,
+				BFD689CC2296D344003A5E85 /* ViewControllerGroup */,
+				BFD689B22296C070003A5E85 /* AppDelegate.swift */,
+				BFD689BE2296C071003A5E85 /* Assets.xcassets */,
+				BFD689C32296C071003A5E85 /* Info.plist */,
+				BFD689C92296C175003A5E85 /* AssessmentTracker.xcdatamodeld */,
+			);
+			path = AssessmentTracker;
+			sourceTree = "<group>";
+		};
+		BFD689CC2296D344003A5E85 /* ViewControllerGroup */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9BFA246F148300275CED /* AssessmentViewController.swift */,
+				9CDA9BFE246F1C7900275CED /* AddAssessmentViewController.swift */,
+				9CDA9BFC246F186A00275CED /* TaskViewController.swift */,
+				BF3D96F822988CB200076BD6 /* AddTaskViewController.swift */,
+			);
+			path = ViewControllerGroup;
+			sourceTree = "<group>";
+		};
+		BFD689CD2296D378003A5E85 /* ModelClassGroup */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9BF2246EE3BD00275CED /* AssesmentCoreData.swift */,
+				9CDA9BF4246EE47600275CED /* AssessmentModel.swift */,
+				9CA33BB4246FADCD00F58679 /* TaskCoreData.swift */,
+				9CA33BB6246FAE3800F58679 /* TaskModel.swift */,
+			);
+			path = ModelClassGroup;
+			sourceTree = "<group>";
+		};
+		BFD689CE2296D384003A5E85 /* ViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BFD689BB2296C070003A5E85 /* Main.storyboard */,
+				BF3D96D1229859F500076BD6 /* AssessmentTableCell.swift */,
+				BF3D96D2229859F500076BD6 /* AssessmentTableCell.xib */,
+				BFDC2B152299705D0084C115 /* TaskCellView.swift */,
+				BFDC2B162299705D0084C115 /* TaskCellView.xib */,
+				BFDC2B19229988D90084C115 /* CircularProgressBar.swift */,
+				BF3A3B5F2299BC8E007A20BF /* LinearProgressBar.swift */,
+				BFDC2B132299352A0084C115 /* UITableView.swift */,
+				BFD689C02296C071003A5E85 /* LaunchScreen.storyboard */,
+			);
+			path = ViewGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD689AE2296C070003A5E85 /* AssessmentTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD689C62296C071003A5E85 /* Build configuration list for PBXNativeTarget "AssessmentTracker" */;
+			buildPhases = (
+				BFD689AB2296C070003A5E85 /* Sources */,
+				BFD689AC2296C070003A5E85 /* Frameworks */,
+				BFD689AD2296C070003A5E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssessmentTracker;
+			productName = "project-planner-ipad";
+			productReference = BFD689AF2296C070003A5E85 /* AssessmentTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD689A72296C070003A5E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shenali Samaranayake";
+				TargetAttributes = {
+					BFD689AE2296C070003A5E85 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BFD689AA2296C070003A5E85 /* Build configuration list for PBXProject "AssessmentTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD689A62296C070003A5E85;
+			productRefGroup = BFD689B02296C070003A5E85 /* ProductsGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD689AE2296C070003A5E85 /* AssessmentTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD689AD2296C070003A5E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD689C22296C071003A5E85 /* LaunchScreen.storyboard in Resources */,
+				BFD689BF2296C071003A5E85 /* Assets.xcassets in Resources */,
+				BFD689BD2296C070003A5E85 /* Main.storyboard in Resources */,
+				BF3D96D4229859F500076BD6 /* AssessmentTableCell.xib in Resources */,
+				BFDC2B182299705D0084C115 /* TaskCellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD689AB2296C070003A5E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC2B172299705D0084C115 /* TaskCellView.swift in Sources */,
+				BFD689B32296C070003A5E85 /* AppDelegate.swift in Sources */,
+				BF3D96F922988CB200076BD6 /* AddTaskViewController.swift in Sources */,
+				9CA33BB5246FADCD00F58679 /* TaskCoreData.swift in Sources */,
+				9C08C5EC246E64E7001DFC90 /* DateFormat.swift in Sources */,
+				9CA33BB7246FAE3800F58679 /* TaskModel.swift in Sources */,
+				BF3D96D3229859F500076BD6 /* AssessmentTableCell.swift in Sources */,
+				9CDA9BFF246F1C7900275CED /* AddAssessmentViewController.swift in Sources */,
+				9CDA9BF3246EE3BD00275CED /* AssesmentCoreData.swift in Sources */,
+				9CDA9BFD246F186A00275CED /* TaskViewController.swift in Sources */,
+				BF3A3B602299BC8E007A20BF /* LinearProgressBar.swift in Sources */,
+				9CDA9BED246EB86500275CED /* Gradients.swift in Sources */,
+				9CDA9BFB246F148300275CED /* AssessmentViewController.swift in Sources */,
+				9CDA9BEB246E7E6A00275CED /* ProjectFormulas.swift in Sources */,
+				9CDA9BF5246EE47600275CED /* AssessmentModel.swift in Sources */,
+				BFD689CB2296C175003A5E85 /* AssessmentTracker.xcdatamodeld in Sources */,
+				BFDC2B142299352A0084C115 /* UITableView.swift in Sources */,
+				BFDC2B1A229988D90084C115 /* CircularProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFD689BB2296C070003A5E85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD689BC2296C070003A5E85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD689C02296C071003A5E85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD689C12296C071003A5E85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD689C42296C071003A5E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD689C52296C071003A5E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD689C72296C071003A5E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9YVQ4Q289;
+				INFOPLIST_FILE = AssessmentTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenali.AssessmentTracker.AssessmentTracker;
+				PRODUCT_NAME = AssessmentTracker;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BFD689C82296C071003A5E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9YVQ4Q289;
+				INFOPLIST_FILE = AssessmentTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenali.AssessmentTracker.AssessmentTracker;
+				PRODUCT_NAME = AssessmentTracker;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD689AA2296C070003A5E85 /* Build configuration list for PBXProject "AssessmentTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD689C42296C071003A5E85 /* Debug */,
+				BFD689C52296C071003A5E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD689C62296C071003A5E85 /* Build configuration list for PBXNativeTarget "AssessmentTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD689C72296C071003A5E85 /* Debug */,
+				BFD689C82296C071003A5E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFD689C92296C175003A5E85 /* AssessmentTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFD689CA2296C175003A5E85 /* ProjectPlanner.xcdatamodel */,
+			);
+			currentVersion = BFD689CA2296C175003A5E85 /* ProjectPlanner.xcdatamodel */;
+			path = AssessmentTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFD689A72296C070003A5E85 /* Project object */;
+}
